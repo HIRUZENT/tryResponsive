@@ -1,0 +1,375 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+.section-jarlosix {
+  overflow-y: hidden;
+}
+.navbar-khusus {
+  margin-left: 20%;
+}
+.header-joki {
+  text-align: center;
+  margin: 5% 0% 2% 0%;
+}
+.header-joki h1 {
+  font-family: "Anton";
+  font-weight: 800;
+  letter-spacing: 4px;
+}
+.container-jarlosix .iconHeader img {
+  margin-left: 92%;
+}
+.header-joki span {
+  color: #e14b4b;
+}
+.container-card {
+  padding: 3% 5% 5% 5%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.container-card .row-card .col-md-4 {
+  margin-bottom: 1.5rem;
+}
+.column-card {
+  min-height: 35rem;
+  max-height: 40rem;
+  max-width: 20rem;
+  transition: all 0.3s ease;
+  position: relative;
+}
+.column-card h4 {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  border-radius: 10px;
+  top: 80%;
+  transform: translateX(-50%);
+  text-align: center;
+  width: 92%;
+  height: 20%;
+  color: white;
+  font-weight: 700;
+  padding-top: 10px;
+  font-size: 1rem;
+}
+.column-card img {
+  width: 100%;
+  object-fit: cover;
+  padding-top: 25px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+}
+.cards1 img {
+  background-color: rgba(163, 164, 233, 0.3);
+}
+.cards1 h4 {
+  background: linear-gradient(to top, rgb(137, 139, 241), transparent);
+}
+.cards2 img {
+  background-color: rgba(231, 219, 44, 0.3);
+  object-position: -50px;
+}
+.cards2 h4 {
+  background: linear-gradient(to top, rgb(235, 224, 75), transparent);
+}
+.cards3 img {
+  background-color: rgba(225, 75, 75, 0.3);
+}
+.cards3 h4 {
+  background: linear-gradient(to top, rgba(225, 75, 75), transparent);
+}
+.cards4 img {
+  background-color: rgba(163, 164, 233, 0.4);
+}
+.cards4 h4 {
+  background: linear-gradient(to top, rgb(137, 139, 241), transparent);
+}
+.column-card:hover {
+  scale: 1.2;
+  transition: all 0.3s ease;
+}
+/* Halaman jarlo six */
+.container-jarlosix {
+  position: fixed;
+  min-height: 30rem;
+  margin-left: -1rem;
+}
+.row-jarlosix {
+  margin-top: 2.5rem;
+  min-height: 50rem;
+  max-height: 2rem;
+  min-width: 5rem;
+}
+.jarlosix-left-image img {
+  z-index: -99;
+  width: 20%;
+  top: 0;
+  position: fixed;
+  height: 100svh;
+  object-fit: cover;
+}
+.header-jarlosix {
+  padding-left: 3rem;
+  padding-right: 2rem;
+}
+.header-jarlosix {
+  max-height: 85svh;
+  overflow: auto;
+  overflow-x: hidden;
+}
+.header-jarlosix-text1 {
+  font-family: "Anton", sans-serif;
+  letter-spacing: 8px;
+  font-weight: 700;
+}
+.header-jarlosix-text1 span {
+  color: #e14b4b;
+}
+.header-jarlosix-text-2 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  font-family: "Poppins";
+}
+.header-kategori h2 {
+  text-align: center;
+  font-weight: 800;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 1px;
+}
+/* .header-kategori h2:before{
+  content: "";
+  height: 20px;
+  width: 10px;
+  position: absolute;
+  background: #e14b4b;
+} */
+.header-kategori span {
+  color: #e14b4b;
+}
+.row-list-joki {
+  max-width: 85%;
+  margin-left: 1rem;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.4);
+}
+.row-keterangan-trailblaze {
+  font-size: 1.2rem;
+  margin: 1rem 0rem 0rem 2rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  opacity: 0.7;
+}
+.row-keterangan-trailblaze span {
+  color: #e14b4b;
+  transform: translateY(-2px);
+}
+.row-list-joki .col-12 {
+  padding: 15px 13px 0px 15px;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+.row-list-joki p {
+  font-size: 1.2rem;
+  font-weight: 100;
+  font-family: "Anton";
+  letter-spacing: 2px;
+  color: rgb(0, 0, 0);
+}
+.row-list-trailblaze p {
+  font-size: 1.5rem;
+}
+.row-list-joki a {
+  background-color: #ab1c1c;
+  padding: 8px 15px 8px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+.row-list-joki:hover {
+  cursor: pointer;
+}
+.header-jarlosix-fullstar {
+  font-family: "Anton", sans-serif;
+  letter-spacing: 4px;
+  font-size: 1.5rem;
+  width: auto;
+  margin: 2rem 0rem 1rem 2rem;
+}
+.header-jarlosix-fullstar span {
+  color: #e14b4b;
+}
+.row-note {
+  padding: 2rem;
+}
+.row-note p {
+  font-size: 1.1rem;
+  font-family: "Anton";
+  letter-spacing: 3px;
+  color: black;
+}
+.row-note p span {
+  color: #e14b4b;
+}
+.row-note .noted h3 {
+  font-size: 1rem;
+  font-family: "Poppins";
+  letter-spacing: 1px;
+  color: black;
+  font-weight: 400;
+}
+.rows-list-trailblaze {
+  margin-top: 1rem;
+}
+.header-farm-relic {
+  margin-left: 2rem;
+}
+.header-farm-relic span {
+  color: #e14b4b;
+}
+.header-farm-relic h6 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+@media (width <= 1110px) {
+  .container-jarlosix .iconHeader img {
+    margin-left: 90%;
+    margin-top: 4rem;
+  }
+}
+@media (width <= 925px) {
+  .container-jarlosix .iconHeader img {
+    margin-left: 90%;
+    margin-right: 5%;
+  }
+  .header-farm-relic h6 {
+    font-size: 0.8rem;
+    margin-left: -0.8rem;
+  }
+  .rows-list-trailblaze p{
+    margin-left: -0.5rem;
+    font-size: 0.9rem;
+  }
+}
+@media (width <= 768px) {
+  /* .column-card {
+    min-height: 25rem;
+    max-height: 30rem;
+  } */
+  .row-list-joki {
+    max-width: 95%;
+  }
+  .header-jarlosix {
+    margin-top: -1rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+  .container-jarlosix .iconHeader img {
+    display: none;
+  }
+  .container-jarlosix {
+    position: unset;
+  }
+  .jarlosix-left-image img {
+    z-index: -99;
+    width: 20%;
+  }
+  .container-jarlosix .iconHeader img {
+    margin-top: 1rem;
+  }
+  .row-list-joki {
+    width: 100%;
+  }
+  .header-farm-relic h6 {
+    font-size: 0.8rem;
+    max-width: 90%;
+    margin-left: -0.8rem;
+  }
+}
+@media (width <= 605px) {
+  .header-jarlosix-text1 {
+    font-size: 1.5rem;
+  }
+  .header-jarlosix-text-2 {
+    font-size: 0.8rem;
+  }
+  .header-jarlosix-fullstar {
+    margin-top: 1rem;
+    font-size: 1.1rem;
+  }
+  .header-jarlosix-text1{
+    padding-left: 2rem;
+  }
+  .header-jarlosix-text-2 {
+    padding-left: 1rem;
+  }
+  .header-jarlosix {
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+  .container-jarlosix .iconHeader img {
+    display: none;
+  }
+  .container-jarlosix {
+    position: unset;
+  }
+
+  .container-jarlosix .iconHeader img {
+    margin-top: 1rem;
+  }
+  .row-list-joki {
+    width: 98%;
+  }
+  .row-list-joki p {
+    font-size: 0.9rem;
+    font-weight: 100;
+    font-family: "Anton";
+    letter-spacing: 2px;
+    color: rgb(0, 0, 0);
+  }
+  .row-list-joki a {
+    background-color: #ab1c1c;
+    padding: 5px 8px 5px 8px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    font-size: 0.6rem;
+    font-weight: 600;
+  }
+}
+@media (width <= 505px) {
+  .navbar-khusus p {
+    font-size: 0.8rem;
+  }
+  .header-jarlosix-fullstar {
+    margin-left: 1rem;
+  }
+  .header-jarlosix-text1 {
+    font-size: 1.3rem;
+    letter-spacing: 3px;
+  }
+  .header-jarlosix-text-2 {
+    font-size: 0.8rem;
+  }
+  .row-list-joki p {
+    font-size: 0.8rem;
+    margin-left: -0.9rem;
+  }
+  .row-list-joki a {
+    background-color: #ab1c1c;
+    padding: 5px 8px 5px 8px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: lac;
+    font-size: 0.6rem;
+    font-weight: 600;
+  }
+  .row-note {
+    margin-left: -1.6rem;
+  }
+  .row-note .noted h3 {
+    font-size: 0.8rem;
+  }
+}
